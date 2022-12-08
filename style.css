@@ -3,25 +3,30 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-family: 'roboto';
+    margin:0;
+    padding: 0;
 }
 
 .header{
     display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
 }
 
 .hero{
     display: flex;
     background-color: #1f2937;
-    justify-content: space-between;
 }
 .awesome{
+    display: flex;
 font-size: 48px;
 font-weight: bolder;
 color: #f9faf8;
 }
 ul{
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 a{
     text-decoration: none;
@@ -33,6 +38,8 @@ a{
     display:flex;
     background-color: #1f2937;
     color: #e5e7eb;
+    align-self: flex-end;
+
 }
 
 .secondary-text{
@@ -49,6 +56,7 @@ a{
 }
 
 .quote{
+    display: flex;
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1f2937;
@@ -58,5 +66,19 @@ button{
 }
 
 .sign-up{
+    display: flex;
     background-color: #3882f6;
+}
+
+img{
+    width:300px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
 }
