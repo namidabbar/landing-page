@@ -64,6 +64,7 @@ padding:0;
 img{
     width:300px;
     height: 200px;
+    border-radius: 8px;
 }
 .placeholder{
     display: flex;
@@ -74,13 +75,30 @@ img{
 /*main*/
 .main{
     display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .information{
     font-size: 36px;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    display: flex;
 }
 
+.myproject{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 15px;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 30px;
+    width: 300px;
+}
 /*Quote section*/
 
 .quote{
